@@ -1,0 +1,10 @@
+{
+    "codespaces": {
+        "dockerfile": "dockerfile"
+    },
+    "name": "Flutter",
+    "extensions": [
+        "flutter.flutter",
+        "dart-code.dart-code"
+    ]
+}
