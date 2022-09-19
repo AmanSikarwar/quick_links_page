@@ -1,0 +1,20 @@
+{
+    "name": "Flutter",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter",
+        // "ms-vscode-remote.remote-containers"
+        "auchenberg.vscode-browser-preview"
+    ],
+    "forwardPorts": [
+        8080
+    ],
+    "settings": {
+        "dart.flutterRunAdditionalArgs": [
+            "--web-hostname=0.0.0.0",
+            "--web-port",
+            "8080"
+        ]
+    }
+}
